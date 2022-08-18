@@ -7,7 +7,7 @@ const initialState = {
 
 export default (state, action) => {
   if (!state) {
-    return initialState();
+    return initialState;
   }
   const { type, payload } = action;
 
