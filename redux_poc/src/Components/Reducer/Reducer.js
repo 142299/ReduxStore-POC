@@ -1,8 +1,7 @@
 import { combineReducers } from "redux";
-import dataFromReducer from "./CakeReducer";
-// import React from "react";
+import CakeReducer from "./CakeReducer";
 
 const rootReducer = combineReducers({
-  noOfCakes: dataFromReducer,
+  noOfCakes: CakeReducer,
 });
 export default rootReducer;
