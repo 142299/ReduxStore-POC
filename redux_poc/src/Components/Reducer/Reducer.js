@@ -2,6 +2,6 @@ import { combineReducers } from "redux";
 import CakeReducer from "./CakeReducer";
 
 const rootReducer = combineReducers({
-  noOfCakes: CakeReducer,
+  cakeReducer: CakeReducer,
 });
 export default rootReducer;
