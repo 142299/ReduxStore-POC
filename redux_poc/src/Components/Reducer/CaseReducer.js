@@ -10,7 +10,7 @@ export default (state, action) => {
     return initialState;
   }
   const { type, payload } = action;
-
+  console.log(type, payload);
   const newState = (items) => ({
     ...state,
     result: { ...state.result, ...items },
