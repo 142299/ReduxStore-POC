@@ -1,7 +1,7 @@
 import ActionConstants from "../Actions/ActionConstants";
 const initialState = {
   result: {
-    noOfCakes: 10,
+    caselist: [],
   },
 };
 

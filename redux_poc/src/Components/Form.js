@@ -4,8 +4,8 @@ import { useSelector , useDispatch } from 'react-redux';
 import ActionConstants from "./Actions/ActionConstants";
 
 function Form() {
-  const counter = useSelector((state) => state.cakeReducer.result.noOfCakes)
-  useDispatch({ type: ActionConstants.BUY_CAKE },20)
+  const counter = useSelector((state) => state.caseReducer.result.caselist)
+ // useDispatch({ type: ActionConstants.BUY_CAKE },20)
   console.log(counter);
   useEffect ( () => {
     console.log("Did mount")

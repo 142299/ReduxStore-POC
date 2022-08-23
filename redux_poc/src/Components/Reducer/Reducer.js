@@ -1,7 +1,9 @@
 import { combineReducers } from "redux";
-import CakeReducer from "./CakeReducer";
+import CaseReducer from "./CaseReducer";
+import CommonReducer from "./CommonReducer";
 
 const rootReducer = combineReducers({
-  cakeReducer: CakeReducer,
+  caseReducer: CaseReducer,
+  commonReducer :CommonReducer
 });
 export default rootReducer;
